@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lunera Accessories</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="home">
+  <div class="topbar">
+    <div class="container">
+      <small>Free shipping on ₺1500+ (demo)</small>
+      <small>1-year warranty (demo) • 14-day returns (demo)</small>
+    </div>
+  </div>
+
+  <header class="nav">
+    <div class="container navInner">
+      <a class="brand" href="index.html">
+        <strong>Lunera Accessories</strong>
+        <span>Minimal pieces • Everyday shine</span>
+      </a>
+      <nav class="menu">
+        <a data-nav href="index.html">Home</a>
+        <a href="category.html?cat=necklaces">Necklaces</a>
+        <a href="category.html?cat=bracelets">Bracelets</a>
+        <a href="category.html?cat=earrings">Earrings</a>
+        <a data-nav href="about.html">About</a>
+        <a data-nav href="contact.html">Contact</a>
+        <a class="cartPill" href="cart.html" aria-label="Cart">
+          Cart <span id="cartCount" class="cartCount">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="heroBox">
+        <div>
+          <h1>Accessories that feel effortless.</h1>
+          <p>
+            A curated demo collection of minimal necklaces, bracelets and earrings —
+            designed to look clean, modern, and wearable every day.
+          </p>
+          <div class="heroCtas">
+            <a class="btn" href="category.html?cat=necklaces">Shop Necklaces</a>
+            <a class="btn btnGhost" href="category.html?cat=earrings">Shop Earrings</a>
+          </div>
+        </div>
+        <div class="panel">
+          <h2 style="margin:0 0 8px;">3 Collections • 15 Products</h2>
+          <p style="margin:0;color:var(--muted);">
+            Built as a functional demo store: browsing, cart, checkout flow, and navigation all work.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="sectionTitle">
+      <h2>Shop by category</h2>
+      <p>Three focused collections</p>
+    </div>
+    <div id="categoryGrid" class="grid"></div>
+
+    <div class="sectionTitle">
+      <h2>Featured</h2>
+      <p>Quick picks to explore</p>
+    </div>
+    <div id="featuredGrid" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerGrid">
+      <div>
+        <h4>Lunera Accessories</h4>
+        <div>Demo storefront for an academic project.</div>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <div><a href="about.html">About</a></div>
+        <div><a href="contact.html">Contact</a></div>
+        <div><a href="cart.html">Cart</a></div>
+      </div>
+      <div>
+        <h4>Policies (demo)</h4>
+        <div>Shipping • Returns • Privacy</div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
