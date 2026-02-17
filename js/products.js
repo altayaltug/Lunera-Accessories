@@ -5,7 +5,7 @@ export const PRODUCTS = [
     name: "Minimal Gold Bracelet",
     price: 499,
     currency: "TRY",
-    image: "https://via.placeholder.com/300x300?text=Product",
+    image: "https://via.placeholder.com/300x300?text=Lunera",
     description: "A clean, minimal bracelet for everyday wear."
   },
   {
@@ -14,7 +14,7 @@ export const PRODUCTS = [
     name: "Silver Chain Bracelet",
     price: 449,
     currency: "TRY",
-    image: "https://via.placeholder.com/300x300?text=Bracelet",
+    image: "https://via.placeholder.com/300x300?text=Lunera",
     description: "Soft sparkle with a modern chain design."
   },
   {
@@ -23,7 +23,7 @@ export const PRODUCTS = [
     name: "Pearl Necklace",
     price: 699,
     currency: "TRY",
-    image: "https://via.placeholder.com/300x300?text=Necklace",
+    image: "https://via.placeholder.com/300x300?text=Lunera",
     description: "Elegant pearl necklace with minimal style."
   },
   {
@@ -32,7 +32,7 @@ export const PRODUCTS = [
     name: "Gold Stud Earrings",
     price: 299,
     currency: "TRY",
-    image: "https://via.placeholder.com/300x300?text=Earrings",
+    image: "https://via.placeholder.com/300x300?text=Lunera",
     description: "Simple gold studs for daily elegance."
   }
 ];
