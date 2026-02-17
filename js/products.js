@@ -5,7 +5,7 @@ export const PRODUCTS = [
     name: "Minimal Gold Bracelet",
     price: 499,
     currency: "TRY",
-    image: "https://via.placeholder.com/300x300?text=Bracelet",
+    image: "https://via.placeholder.com/300x300?text=Product",
     description: "A clean, minimal bracelet for everyday wear."
   },
   {
